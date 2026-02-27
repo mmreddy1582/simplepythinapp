@@ -11,9 +11,9 @@ st.set_page_config(page_title="Document Translator", page_icon=":globe_with_meri
 
 # Load environment variables
 load_dotenv()
-url = "https://esiautomationai.openai.azure.com/translator/document:translate"
+#url = "https://esiautomationai.openai.azure.com/translator/document:translate"
 #url = "https://EISCustomTranslator2.cognitiveservices.azure.com/translator/document:translate"
-#AZURE_API_KEY="1SvAQpdYc3liDmIevZLMosUFdJ0h1GtpFtVtqMnov9D1FhBUyaNWJQQJ99BHACULyCpXJ3w3AAAbACOGyN8s"
+AZURE_API_KEY="1SvAQpdYc3liDmIevZLMosUFdJ0h1GtpFtVtqMnov9D1FhBUyaNWJQQJ99BHACULyCpXJ3w3AAAbACOGyN8s"
 AZURE_KEY = os.getenv("AZURE_API_KEY")
 headers = {
     "Ocp-Apim-Subscription-Key": AZURE_KEY
